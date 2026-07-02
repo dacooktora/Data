@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Data Analyst Journey</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================================
+    NAVBAR - Simple, Personal
+    ============================================================ -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon"><i class="fas fa-chart-line"></i></span>
+                <span class="brand-text">My<span class="highlight">Data</span>Journey</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#modules">Modul</a></li>
+                <li><a href="pages/dashboard.html" class="btn btn-outline-light">Dashboard</a></li>
+                <li><a href="pages/lessons.html" class="btn btn-primary">Mulai Belajar</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    HERO - Personal
+    ============================================================ -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-user"></i> Personal Learning System
+                    </div>
+                    <h1 class="hero-title">
+                        Jadi <span class="highlight">Data Analyst</span><br />
+                        Dari <span class="highlight">NOL</span> Dalam 6 Bulan
+                    </h1>
+                    <p class="hero-desc">
+                        Ini adalah <strong>sistem belajar pribadi</strong> gw. 
+                        Terstruktur, berbasis proyek, dan 100% fokus ke skill yang 
+                        beneran dipakai di kerjaan. <strong>Ga ada kursus mahal.</strong>
+                    </p>
+                    <div class="hero-cta">
+                        <a href="pages/lessons.html" class="btn btn-hero">
+                            <i class="fas fa-play"></i> Start Learning Now
+                        </a>
+                        <a href="#roadmap" class="btn btn-outline-dark">
+                            <i class="fas fa-map"></i> Lihat Roadmap
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Modul</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Latihan</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Mini Project</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Final Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Tableau</span>
+                    </div>
+                    <div class="floating-card card-4">
+                        <i class="fas fa-file-excel"></i>
+                        <span>Excel</span>
+                    </div>
+                    <div class="hero-illustration">
+                        <div class="illustration-bar"></div>
+                        <div class="illustration-bar"></div>
+                        <div class="illustration-bar"></div>
+                        <div class="illustration-bar"></div>
+                        <div class="illustration-dots"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================
+    TOOLS SECTION
+    ============================================================ -->
+    <section class="tools" id="tools">
+        <div class="container">
+            <div class="section-label">Tools yang harus gw kuasai</div>
+            <h2 class="section-title">Software <span class="highlight">Wajib</span></h2>
+            <p class="section-desc">Ini tools yang beneran dipakai Data Analyst di perusahaan.</p>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fas fa-file-excel"></i></div>
+                    <h4>Excel / Sheets</h4>
+                    <p>Manipulasi data, pivot, formula dasar</p>
+                    <span class="tool-badge">Dasar</span>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fas fa-database"></i></div>
+                    <h4>SQL</h4>
+                    <p>Query data dari database</p>
+                    <span class="tool-badge">Wajib</span>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fab fa-python"></i></div>
+                    <h4>Python + Pandas</h4>
+                    <p>Analisis, cleaning, visualisasi</p>
+                    <span class="tool-badge">Menengah</span>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h4>Tableau / Power BI</h4>
+                    <p>Dashboard interaktif</p>
+                    <span class="tool-badge">Visual</span>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fab fa-github"></i></div>
+                    <h4>Git & GitHub</h4>
+                    <p>Portofolio project</p>
+                    <span class="tool-badge">Portofolio</span>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon"><i class="fas fa-robot"></i></div>
+                    <h4>AI Assistant</h4>
+                    <p>Bantuan coding & analisis</p>
+                    <span class="tool-badge">Produktivitas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    ROADMAP 6 BULAN
+    ============================================================ -->
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-label">Perjalanan gw</div>
+            <h2 class="section-title">Roadmap 6 Bulan <span class="highlight">Anti Gagal</span></h2>
+            <p class="section-desc">Fokus satu skill per bulan. Dari nol sampai siap kerja.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker month-1">
+                        <span class="month-number">1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bulan 1: Fondasi & Spreadsheet</h3>
+                            <span class="timeline-tools"><i class="fas fa-file-excel"></i> Excel / Sheets</span>
+                        </div>
+                        <p>Kenalan data, tipe data, formula, pivot table, cleaning.</p>
+                        <div class="timeline-output">
+                            <i class="fas fa-check-circle"></i> Target: Dashboard penjualan di Sheets
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker month-2">
+                        <span class="month-number">2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bulan 2: SQL Dasar - Menengah</h3>
+                            <span class="timeline-tools"><i class="fas fa-database"></i> PostgreSQL</span>
+                        </div>
+                        <p>SELECT, JOIN, GROUP BY, subquery, window functions.</p>
+                        <div class="timeline-output">
+                            <i class="fas fa-check-circle"></i> Target: 50 query + laporan
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker month-3">
+                        <span class="month-number">3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bulan 3: Statistik + SQL Lanjutan</h3>
+                            <span class="timeline-tools"><i class="fas fa-calculator"></i> Statistik</span>
+                        </div>
+                        <p>Mean, median, korelasi, hipotesis, exploratory analysis.</p>
+                        <div class="timeline-output">
+                            <i class="fas fa-check-circle"></i> Target: Analisis statistik + rekomendasi
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker month-4">
+                        <span class="month-number">4</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bulan 4: Python + Pandas</h3>
+                            <span class="timeline-tools"><i class="fab fa-python"></i> Python</span>
+                        </div>
+                        <p>Python dasar, pandas untuk cleaning, grouping, plotting.</p>
+                        <div class="timeline-output">
+                            <i class="fas fa-check-circle"></i> Target: 3 notebook analisis
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker month-5">
+                        <span class="month-number">5</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bulan 5: Dashboard & Storytelling</h3>
+                            <span class="timeline-tools"><i class="fas fa-chart-pie"></i> Tableau</span>
+                        </div>
+                        <p>Prinsip dashboard, chart selection, filter, KPI.</p>
+                        <div class="timeline-output">
+                            <i class="fas fa-check-circle"></i> Target: 2 dashboard interaktif
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker month-6">
+                        <span class="month-number">6</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bulan 6: Final Project + Portfolio</h3>
+                            <span class="timeline-tools"><i class="fas fa-briefcase"></i> Semua Tools</span>
+                        </div>
+                        <p>End-to-end project simulasi perusahaan.</p>
+                        <div class="timeline-output">
+                            <i class="fas fa-check-circle"></i> Target: Portfolio + presentasi
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    MODULES
+    ============================================================ -->
+    <section class="modules" id="modules">
+        <div class="container">
+            <div class="section-label">Materi gw</div>
+            <h2 class="section-title">8 Modul <span class="highlight">Lengkap</span></h2>
+            <p class="section-desc">Dari nol sampai siap interview. Semua gratis.</p>
+            
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-number">00</div>
+                    <h4>Kenalan Profesi</h4>
+                    <p>Apa itu Data Analyst? Workflow harian.</p>
+                    <a href="pages/lessons.html?module=0" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">01</div>
+                    <h4>Spreadsheet Dasar</h4>
+                    <p>Formula, pivot, cleaning, chart.</p>
+                    <a href="pages/lessons.html?module=1" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">02</div>
+                    <h4>SQL Dasar-Menengah</h4>
+                    <p>SELECT, JOIN, GROUP BY, window.</p>
+                    <a href="pages/lessons.html?module=2" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">03</div>
+                    <h4>Statistik</h4>
+                    <p>Mean, median, korelasi, hipotesis.</p>
+                    <a href="pages/lessons.html?module=3" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">04</div>
+                    <h4>Python + Pandas</h4>
+                    <p>Python dasar, pandas, cleaning.</p>
+                    <a href="pages/lessons.html?module=4" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">05</div>
+                    <h4>Visualisasi & Dashboard</h4>
+                    <p>Tableau, storytelling, KPI.</p>
+                    <a href="pages/lessons.html?module=5" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">06</div>
+                    <h4>Analisis Bisnis</h4>
+                    <p>Metrik, insight, rekomendasi.</p>
+                    <a href="pages/lessons.html?module=6" class="module-link">Mulai →</a>
+                </div>
+                <div class="module-card">
+                    <div class="module-number">07</div>
+                    <h4>Persiapan Kerja</h4>
+                    <p>Portfolio, CV, interview.</p>
+                    <a href="pages/lessons.html?module=7" class="module-link">Mulai →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PROGRESS TRACKER - Personal Dashboard Preview
+    ============================================================ -->
+    <section class="progress-preview">
+        <div class="container">
+            <div class="section-label">Progress gw</div>
+            <h2 class="section-title">Sejauh Mana <span class="highlight">Gw</span>?</h2>
+            
+            <div class="progress-grid">
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" stroke="#2d3b5a" stroke-width="8" fill="none"/>
+                            <circle cx="50" cy="50" r="40" stroke="#22d3ee" stroke-width="8" fill="none"
+                                    stroke-dasharray="251.2" stroke-dashoffset="251.2"
+                                    id="progressCircle"/>
+                        </svg>
+                        <span class="progress-percent" id="progressPercent">0%</span>
+                    </div>
+                    <h4>Overall Progress</h4>
+                    <p>Dari 8 modul + 6 project</p>
+                </div>
+                <div class="progress-card">
+                    <h4><i class="fas fa-calendar-check"></i> Bulan Ini</h4>
+                    <div class="progress-bar-track">
+                        <div class="progress-bar-fill" style="width: 0%;" id="monthProgress"></div>
+                    </div>
+                    <p id="monthText">Belum mulai</p>
+                </div>
+                <div class="progress-card">
+                    <h4><i class="fas fa-tasks"></i> Target Minggu Ini</h4>
+                    <ul id="weeklyTargets">
+                        <li>🔲 Belum ada target</li>
+                    </ul>
+                </div>
+                <div class="progress-card">
+                    <h4><i class="fas fa-flag-checkered"></i> Final Project</h4>
+                    <p id="finalProjectStatus">Belum dimulai</p>
+                    <a href="pages/projects.html" class="btn btn-small">Lihat Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FINAL CTA
+    ============================================================ -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Gw <span class="highlight">Harus</span> Mulai Sekarang</h2>
+                <p>Ga ada alesan. Ga perlu kursus mahal.<br />Cuma butuh <strong>konsistensi</strong> dan <strong>sistem</strong> ini.</p>
+                <a href="pages/lessons.html" class="btn btn-cta">
+                    <i class="fas fa-arrow-right"></i> Mulai Hari Ini
+                </a>
+                <div class="cta-footer">
+                    <span><i class="fas fa-clock"></i> 6 bulan</span>
+                    <span><i class="fas fa-gift"></i> Gratis</span>
+                    <span><i class="fas fa-user"></i> Personal</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="brand-icon"><i class="fas fa-chart-line"></i></span>
+                    <span>My<span class="highlight">Data</span>Journey</span>
+                    <p>Personal learning system. 6 bulan dari nol.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Belajar</h4>
+                    <ul>
+                        <li><a href="pages/lessons.html">Modul</a></li>
+                        <li><a href="pages/quiz.html">Kuis</a></li>
+                        <li><a href="pages/projects.html">Project</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Karir</h4>
+                    <ul>
+                        <li><a href="pages/portfolio.html">Portfolio</a></li>
+                        <li><a href="pages/interview.html">Interview</a></li>
+                        <li><a href="pages/dashboard.html">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li><a href="#">SQL</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Tableau</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 My Data Journey. Personal project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
