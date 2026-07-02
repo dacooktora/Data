@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Quiz Center | Data Analyst Academy
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../style.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h1>
+                Data Analyst Academy
+            </h1>
+
+            <p>
+                180 Days Challenge
+            </p>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    Dashboard
+                </li>
+
+                <li>
+                    Roadmap
+                </li>
+
+                <li>
+                    Lessons
+                </li>
+
+                <li class="active">
+                    Quiz
+                </li>
+
+                <li>
+                    Projects
+                </li>
+
+                <li>
+                    Portfolio
+                </li>
+
+                <li>
+                    Interview
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <!-- HERO -->
+
+        <section class="hero-section">
+
+            <h1>
+                Quiz Center
+            </h1>
+
+            <h2>
+                Uji kemampuanmu
+            </h2>
+
+            <p>
+                Selesaikan quiz untuk mendapatkan XP dan membuka modul berikutnya.
+            </p>
+
+        </section>
+
+        <!-- STATS -->
+
+        <section class="overview-cards">
+
+            <div class="card">
+
+                <h3>
+                    Total Quiz
+                </h3>
+
+                <h1>
+                    120
+                </h1>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Selesai
+                </h3>
+
+                <h1 id="completedQuiz">
+                    0
+                </h1>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    XP Dari Quiz
+                </h3>
+
+                <h1 id="quizXP">
+                    0 XP
+                </h1>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Rata-rata Nilai
+                </h3>
+
+                <h1 id="averageScore">
+                    0%
+                </h1>
+
+            </div>
+
+        </section>
+
+        <!-- QUIZ CATEGORY -->
+
+        <section>
+
+            <h2>
+                Kategori Quiz
+            </h2>
+
+            <div class="overview-cards">
+
+                <div class="card">
+
+                    <h3>
+                        Data Fundamental
+                    </h3>
+
+                    <p>
+                        20 Quiz
+                    </p>
+
+                    <progress value="0" max="20"></progress>
+
+                    <button>
+                        Mulai
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Excel
+                    </h3>
+
+                    <p>
+                        25 Quiz
+                    </p>
+
+                    <progress value="0" max="25"></progress>
+
+                    <button>
+                        Mulai
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        SQL
+                    </h3>
+
+                    <p>
+                        35 Quiz
+                    </p>
+
+                    <progress value="0" max="35"></progress>
+
+                    <button>
+                        Mulai
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Statistics
+                    </h3>
+
+                    <p>
+                        10 Quiz
+                    </p>
+
+                    <progress value="0" max="10"></progress>
+
+                    <button>
+                        Mulai
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Power BI
+                    </h3>
+
+                    <p>
+                        15 Quiz
+                    </p>
+
+                    <progress value="0" max="15"></progress>
+
+                    <button>
+                        Mulai
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+                        15 Quiz
+                    </p>
+
+                    <progress value="0" max="15"></progress>
+
+                    <button>
+                        Mulai
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ACTIVE QUIZ -->
+
+        <section>
+
+            <h2>
+                Quiz Aktif
+            </h2>
+
+            <p>
+                Data Fundamental Quiz #1
+            </p>
+
+            <h3 id="question">
+                Apa fungsi utama seorang Data Analyst?
+            </h3>
+
+            <div class="quiz-options">
+
+                <button class="answer-btn">
+                    Mendesain website
+                </button>
+
+                <button class="answer-btn">
+                    Mengelola server
+                </button>
+
+                <button class="answer-btn">
+                    Mengumpulkan, menganalisis, dan menyajikan data
+                </button>
+
+                <button class="answer-btn">
+                    Membuat game
+                </button>
+
+            </div>
+
+            <br>
+
+            <button id="submitAnswer">
+                Submit Jawaban
+            </button>
+
+        </section>
+
+        <!-- RESULT -->
+
+        <section>
+
+            <h2>
+                Hasil Quiz Terakhir
+            </h2>
+
+            <table>
+
+                <tr>
+                    <th>Kategori</th>
+                    <th>Nilai</th>
+                    <th>Status</th>
+                    <th>XP</th>
+                </tr>
+
+                <tr>
+                    <td>Data Fundamental</td>
+                    <td>0</td>
+                    <td>Belum Dikerjakan</td>
+                    <td>0 XP</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- RANKING -->
+
+        <section>
+
+            <h2>
+                Target Kelulusan Quiz
+            </h2>
+
+            <ul>
+
+                <li>
+                    Nilai minimal lulus: 80
+                </li>
+
+                <li>
+                    XP per quiz: 50 XP
+                </li>
+
+                <li>
+                    Bonus perfect score: 20 XP
+                </li>
+
+                <li>
+                    Unlock modul berikutnya jika lulus.
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- HARD MODE -->
+
+        <section>
+
+            <h2>
+                Challenge Mode
+            </h2>
+
+            <div class="overview-cards">
+
+                <div class="card">
+
+                    <h3>
+                        SQL Interview Challenge
+                    </h3>
+
+                    <p>
+                        10 soal level interview perusahaan.
+                    </p>
+
+                    <button>
+                        Mulai Challenge
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Business Case Challenge
+                    </h3>
+
+                    <p>
+                        Analisis kasus bisnis nyata.
+                    </p>
+
+                    <button>
+                        Mulai Challenge
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Dashboard Challenge
+                    </h3>
+
+                    <p>
+                        Simulasi dashboard CEO.
+                    </p>
+
+                    <button>
+                        Mulai Challenge
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="../app.js"></script>
+
+</body>
+
+</html>
